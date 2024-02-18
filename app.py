@@ -13,8 +13,9 @@ from wtforms.validators import InputRequired
 #------------------------------------------
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app = Flask(__name__)
 app.secret_key = "778031a659c117f6ab82986676e24271"
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///MediSearch.db'
 db = SQLAlchemy(app)
+
+
