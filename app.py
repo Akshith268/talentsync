@@ -8,10 +8,6 @@ from flask import flash
 import pandas as pd
 from wtforms import IntegerField, SelectField
 from wtforms.validators import InputRequired
-from flask_mail import Mail, Message
-import random
-import os
-import csv
 
 #Flask App
 #------------------------------------------
